@@ -1,1 +1,1 @@
-worker: node sss.py
+web: gunicorn sss.py 
