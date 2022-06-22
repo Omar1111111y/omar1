@@ -39,7 +39,7 @@ def rmm(ms):
 		fileEx = reqPostFileUrl.headers['Content-Type'].split('/')[-1].split('.')[0]
 		lst = "kamsmsmkwkekw0202030o2kksa"
 		vv = str(''.join((random.choice(lst) for i in range(7))))
-		fileName = "/sdcard/mip/ddd"+'/'+vv+'.' + fileEx
+		fileName = "omar1"+'/'+vv+'.' + fileEx
 	
 		with reqPostFileUrl as rq:
 			with open(fileName, 'wb') as file:
