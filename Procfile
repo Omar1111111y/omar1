@@ -1,1 +1,1 @@
-web: gunicorn sss.py 
+bot: python sss.py
