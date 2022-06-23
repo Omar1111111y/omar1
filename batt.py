@@ -43,10 +43,12 @@ def rmm(ms):
 					bot.reply_to(ms,'جاري تحميل الصوره')
 					bot.send_photo(ms.chat.id,open(fileName,"rb"))
 					os.remove(fileName) #rm
+					bot.reply_to(ms,تم تحميل الصوره بنجاح👍😍😍')
 				elif fileEx == 'mp4':
 					bot.reply_to(ms,'جاري تحميل الفيديو')
 					bot.send_video(ms.chat.id,open(fileName,"rb"))
 					os.remove(fileName) #rm 
+					bot.reply_to(ms,تم تحميل الصوره بنجاح👍😍😍')
 					bot.reply_to(ms,'مطور هذا البوت عمر ستايل')
 				else:
 					bot.reply_to(ms,"""خطا الرجاء تواصل مع عمر ستايل وبعث له الرابط😢😢😢😭@OmarStyle1""")
