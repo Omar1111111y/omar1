@@ -10,18 +10,18 @@ def rmm(ms):
 	
 	iff = ms.text
 
-	url = "https://instagram-media-downloader.p.rapidapi.com/rapid/post.php"
 
 	postUrl = iff
-
-	querystring = {"url": postUrl}
+	url = "https://instagram-media-downloader.p.rapidapi.com/rapid/post.php"
+	querystring = {"url":posUrl}
 
 	headers = {
-   	'x-rapidapi-host': "instagram-media-downloader.p.rapidapi.com",
-    	'x-rapidapi-key': "a225514c66msh6db31d5d9409711p1a9d9ajsn46b7f1221bf5" # Put Your API Key
-    	}
-#	try:
+	"X-RapidAPI-Key": "195352cd0dmsh91e9f4c2e57fedbp137c4ajsneb783a2130ce",
+	"X-RapidAPI-Host": "instagram-media-downloader.p.rapidapi.com"
+	}
+
 	response = requests.request("GET", url, headers=headers, params=querystring)
+
 
 	textToJson = json.loads(response.text)
 #        print(textToJson)
