@@ -18,6 +18,7 @@ def send_welcome(message):
 قصدي كيف يعني اذا انت وضعت الرابط ولم يتم تنزيل هذا الفيديو او الصوره فالرجاء التواصل معنا على حساباتنا الاخرى
 
 @OmarStyle1
+@Kaouterbekraoui
 https://t.me/chatadowat
 https://t.me/BGX4_2   
 """)
