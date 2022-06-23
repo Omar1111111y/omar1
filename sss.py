@@ -21,7 +21,8 @@ def send_welcome(message):
 @Kaouterbekraoui
 https://t.me/omarstyle12
 https://t.me/chatadowat
-https://t.me/BGX4_2   
+https://t.me/BGX4_2 
+https://t.me/toxiccode12
 """)
 #       m =bot.reply_to(message)
 #       if m == "omar":
