@@ -7,19 +7,14 @@ from insm  import *
 #from tkinter import filedialog
 bot = telebot.TeleBot(botmm)
 def rmm(ms):
-	
 	iff = ms.text
-
-
 	postUrl = iff
 	url = "https://instagram-media-downloader.p.rapidapi.com/rapid/post.php"
 	querystring = {"url":posUrl}
-
 	headers = {
 	"X-RapidAPI-Key": "195352cd0dmsh91e9f4c2e57fedbp137c4ajsneb783a2130ce",
 	"X-RapidAPI-Host": "instagram-media-downloader.p.rapidapi.com"
 	}
-
 	response = requests.request("GET", url, headers=headers, params=querystring)
 
 
