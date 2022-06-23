@@ -19,8 +19,7 @@ def rmm(ms):
 
 	textToJson = json.loads(response.text)
 #        print(textToJson)
-#	except TypeError:
-	bot.reply_to(ms,textToJson)
+#	except TypeError:#bot.reply_to(ms,textToJson)
 	try:
 		postFileUrl = ''
 
