@@ -19,6 +19,7 @@ def send_welcome(message):
 
 @OmarStyle1
 @Kaouterbekraoui
+https://t.me/omarstyle12
 https://t.me/chatadowat
 https://t.me/BGX4_2   
 """)
